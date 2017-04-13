@@ -16,13 +16,17 @@
     },
     "authors": [
         {
+            "name": "Prevent HIV Oklahoma",
+            "homepage": "http://preventhivok.org/open-knowledge",
+            "role": "Owner"
+        },
+        {
             "name": "Curtis Blumer",
-            "email": "curtis.blumer@gmail.com",
             "homepage": "http://curtapedia.com",
             "role": "Developer"
         }
     ],
-    "replace": {
+    "conflict": {
         "drupal/phok_platform_profile": "*"
     },
     "extra": {
