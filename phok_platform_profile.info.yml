@@ -7,8 +7,18 @@ distribution:
   name: PHOK Platform
 
 dependencies:
+  # Core modules
+  - big_pipe:big_pipe
+  - ckeditor:ckeditor
+  - help:help
+  - quickedit:quickedit
+  - rdf:rdf
+  - search:search
+  - tour:tour
+  # Contrib modules
   - admin_toolbar:admin_toolbar_tools (>= 1.19)
   - dropzonejs:dropzonejs             (>= 1.0-alpha6)
   - entity_browser:entity_browser     (>= 1.0-rc2)
   - media_entity:media_entity         (>= 1.6)
   - pathauto:pathauto                 (>= 1.0-rc1)
+  # Custom modules
