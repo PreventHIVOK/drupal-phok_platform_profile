@@ -32,7 +32,9 @@
     },
     "require": {
         "php": "^7.0",
-        "drupal/core": "~8.0"
+        "drupal/core": "^8.0",
+        "drupal/admin_toolbar": "^1.19",
+        "drupal/dropzonejs": "^1.0-alpha6"
     },
     "scripts": {
         "test": "echo Error: No tests have been specified && exit 1"
