@@ -1,0 +1,10 @@
+suites:
+    phok_platform_profile_suite:
+        namespace: Drupal\phok_platform_profile
+        psr4_prefix: Drupal\phok_platform_profile
+        src_path: src
+
+    phok_platform_profile_suite:
+        namespace: Drupal\phok_platform_profile\Tests
+        psr4_prefix: Drupal\phok_platform_profile\Tests
+        src_path: tests
